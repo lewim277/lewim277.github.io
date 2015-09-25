@@ -168,7 +168,7 @@ h1 {
     width:31px;
     height:20px;
     position:fixed;
-    top:290px;
+    bottom:290px;
     left:540px;
     border-radius:0px;
     background-color:#2F2F2E;
@@ -177,30 +177,31 @@ h1 {
         width:0;
 	height:0;
 	position:fixed;
-	top:180px;
+	bottom:180px;
 	left:542px;
 	border-left:20px;
 	border-right:20px solid transparent;
 	border-bottom:100px solid white;
 	background-color:#ABAAAA;
-	transform:rotate(180deg);
+	transform:rotate(0deg);
 }
 .set3 {
         width:0;
 	height:0;
 	position:fixed;
-	top:320px;
+	bottom:320px;
 	left:540px;
 	border-left:20px ;
 	border-right:20px solid transparent;
 	border-bottom:100px solid white;
 	background-color:#ABAAAA;
+	transform:rotate(180deg);
 }
 .ant4 {
     width:3px;
     height:28px;
     position:fixed;
-    top:308px;
+    bottom:308px;
     left:550px;
     border-radius:0px;
     background-color:#ABAAAA;
@@ -209,7 +210,7 @@ h1 {
     width:3px;
     height:28px;
     position:fixed;
-    top:270px;
+    bottom:270px;
     left:550px;
     border-radius:0px;
     background-color:#ABAAAA;
