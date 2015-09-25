@@ -152,15 +152,16 @@
     background-color:#2F2F2E;
 }
 .set2 {
-        width: 0;
-	height: 0;
+        width:0;
+	height:0;
 	position:fixed;
 	top:180px;
-	left:540px;
-	border-left: 20px ;
-	border-right: 20px solid transparent;
-	border-bottom: 100px solid white;
+	left:542px;
+	border-left:20px;
+	border-right:20px solid transparent;
+	border-bottom:100px solid white;
 	background-color:#ABAAAA;
+	transform:rotate(180deg);
 }
 .set3 {
         width:0;
@@ -168,9 +169,9 @@
 	position:fixed;
 	top:320px;
 	left:540px;
-	border-left: 20px ;
-	border-right: 20px solid transparent;
-	border-bottom: 100px solid white;
+	border-left:20px ;
+	border-right:20px solid transparent;
+	border-bottom:100px solid white;
 	background-color:#ABAAAA;
 }
 .ant4 {
