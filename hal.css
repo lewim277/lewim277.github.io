@@ -3,15 +3,40 @@ body {
     color:black;
     font-size: 20px;
     font-family: futura, helvetica, arial, sans-serif;
-    
+    background-color:black;
 }
-
-.box {
+.eye {
     width:400px;
     height:400px;
     position:absolute;
     top:200px;
-    left:60px;
+    left:500px;
     border-radius:400px;
-    background-color:red;
+      background: -webkit-radial-gradient(yellow,red,red,black,black); /* Safari 5.1 to 6.0 */
+      background: -moz-radial-gradient(yellow,red,red,black,black); /* For Firefox 3.6 to 15 */
+      background: radial-gradient(yellow,red,red,black,black); /* Standard syntax */
+}
+.lid {
+    width:500px;
+    height:500px;
+    position:absolute;
+    top:150px;
+    left:450px;
+    border-radius:400px;
+    background-color:black;
+}
+.apt {
+    width:530px;
+    height:530px;
+    position:absolute;
+    top:135px;
+    left:435px;
+    border-radius:400px;
+    background-color:#999999;
+}
+
+h1 {
+    position:fixed;
+    left:300px;
+    color:white;
 }
