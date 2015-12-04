@@ -1,42 +1,246 @@
 body {
-    background-color: white;
-    color:black;
     font-size: 20px;
-    font-family: futura, helvetica, arial, sans-serif;
+    font-family: helvetica, arial, sans-serif;
+    background-color:black
+}
+form {
     background-color:black;
 }
+
 .eye {
-    width:400px;
-    height:400px;
+    width:200px;
+    height:200px;
     position:absolute;
-    top:200px;
+    top:500px;
     left:500px;
     border-radius:400px;
+    overflow:hidden;
       background: -webkit-radial-gradient(yellow,red,red,black,black); /* Safari 5.1 to 6.0 */
       background: -moz-radial-gradient(yellow,red,red,black,black); /* For Firefox 3.6 to 15 */
       background: radial-gradient(yellow,red,red,black,black); /* Standard syntax */
 }
 .lid {
-    width:500px;
-    height:500px;
+    width:250px;
+    height:250px;
     position:absolute;
-    top:150px;
-    left:450px;
+    top:475px;
+    left:475px;
     border-radius:400px;
     background-color:black;
 }
 .apt {
-    width:530px;
-    height:530px;
+    width:265px;
+    height:265px;
     position:absolute;
-    top:135px;
-    left:435px;
+    top:467px;
+    left:467px;
     border-radius:400px;
     background-color:#999999;
 }
-
-h1 {
-    position:fixed;
+.back {
+    width:278px;
+    height:700px;
+    position:absolute;
+    top:100px;
+    left:461px;
+    background-color:#333333;
+}
+.lever1{
+    width:20px;
+    height:100px;
+    position:absolute;
+    top:250;
+    left:100px;
+    background-color:white;
+}
+.lever1:hover {
+    background-color:red;
+}
+.lever1:active {
+    background-color:black;
+    
+}
+.lever2 {
+    width:20px;
+    height:100px;
+    position:absolute;
+    top:250;
+    left:150px;
+    background-color:white;
+    
+}
+.lever2:hover {
+    background-color:red;
+}
+.lever2:active {
+    background-color:black;
+}
+.lever3 {
+    width:20px;
+    height:100px;
+    position:absolute;
+    top:250;
+    left:200px;
+    background-color:white;
+    
+}
+.lever3:hover {
+    background-color:red;
+}
+.lever3:active {
+    background-color:black;
+}
+.lever4 {
+    width:20px;
+    height:100px;
+    position:absolute;
+    top:250;
+    left:250px;
+    background-color:white;
+    
+}
+.lever4:hover {
+    background-color:red;
+}
+.lever4:active {
+    background-color:black;
+}
+.lever5 {
+    width:20px;
+    height:100px;
+    position:absolute;
+    top:250;
     left:300px;
-    color:white;
+    background-color:white;
+    
+}
+.lever5:hover {
+    background-color:red;
+}
+.lever5:active {
+    background-color:black;
+}
+.lever6 {
+    width:20px;
+    height:100px;
+    position:absolute;
+    top:400;
+    left:100px;
+    background-color:white;
+    
+}
+.lever6:hover {
+    background-color:red;
+}
+.lever6:active {
+    background-color:black;
+}
+.lever7 {
+    width:20px;
+    height:100px;
+    position:absolute;
+    top:400;
+    left:150px;
+    background-color:white;
+    
+}
+.lever7:hover {
+    background-color:red;
+}
+.lever7:active {
+    background-color:black;
+}
+.lever8 {
+    width:20px;
+    height:100px;
+    position:absolute;
+    top:400;
+    left:200px;
+    background-color:white;
+    
+}
+.lever8:hover {
+    background-color:red;
+}
+.lever8:active {
+    background-color:black;
+}
+.lever9 {
+    width:20px;
+    height:100px;
+    position:absolute;
+    top:400;
+    left:250px;
+    background-color:white;
+    
+}
+.lever9:hover {
+    background-color:red;
+}
+.lever9:active {
+    background-color:black;
+}
+.lever10 {
+    width:20px;
+    height:100px;
+    position:absolute;
+    top:400;
+    left:300px;
+    background-color:white;
+    
+}
+.lever10:hover {
+    background-color:red;
+}
+.lever10:active {
+    background-color:black;
+}
+h1 {
+    position:absolute;
+    top:20px;
+    left: 50px;
+    animation: blink 1s steps(2, start) infinite;
+    color: white;
+    display:inline-block
+
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+.warning:active {
+    position:relative;
+    animation: blink 2s steps(3, start) infinite;
+    top:20px;
+    width: 10px;
+    height: 30px;
+    background-color: white;
+    display:inline-block
+
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+.warning {
+    width:30px;
+    height:30px;
+    position:absolute;
+    top:200px;
+    left:475px;
+    border-radius:400px;
+    background-color:red;
+}
+.warning1 {
+    width:34px;
+    height:34px;
+    position:absolute;
+    top:198px;
+    left:473px;
+    border-radius:400px;
+    background-color:black;
 }
