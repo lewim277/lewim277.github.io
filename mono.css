@@ -1,0 +1,49 @@
+body {
+    text-align:center;
+    color:white;
+    font-size: 20px;
+    font-family: futura, helvetica, arial, sans-serif;
+    background: -webkit-radial-gradient(yellow,red,red,red,red,black,black,black,black); /* Safari 5.1 to 6.0 */
+    background: -moz-radial-gradient(yellow,red,red,red,red,black,black,black,black); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#FDC330,red,#9A4BFB); /* Standard syntax */
+}
+.mono {
+	border-bottom: 450px solid black;
+	border-left: 300px solid transparent;
+	border-right: 300px solid transparent;
+	height: 400px;
+	width: 500px;
+	position:fixed;
+	bottom: 0;
+	left: 50%;
+	margin-left: -540px;
+	
+	
+}
+.moon {
+    width:400px;
+    height:400px;
+    position:fixed; 
+    top:20%;
+    left:50%;
+    margin-left: -200px;
+    border-radius:400px;
+    background-color:white;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 20s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    from {top:5%;}
+    to {top:20%;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {top:5%;}
+    to {top:20%;}
+}
+
