@@ -26,49 +26,44 @@ h1 {
 
 .jupitar {
     position: absolute;
-    left:8000px;
+    left:5000px;
 }
 
 .ship{
-    left:5000px;
+    left:4600px;
     top:200px;
     position:absolute; 
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 60s; /* Chrome, Safari, Opera */
-    animation-name: example;
-    animation-duration: 40s;
+    animation-name: theme;
+    animation-duration: 50s;
     z-index:150;
 }
 
 /* Chrome, Safari, Opera */
-@-webkit-keyframes example {
-    from {left:100px;top:200px;
+@-webkit-keyframes theme {
+    from {left:500px;top:200px;
     }
-    to {left:5000px;top:200px;}
+    to {left:4600px;top:200px;}
 }
 
 /* Standard syntax */
-@keyframes example {
+@keyframes theme {
     from {left:100px;top:200px;}
-    to {left:5000px;top:200px;}
+    to {left:4600px;top:200px;}
 }
 
 .gradient { 
     position:absolute;
     top:210px;
-    left:5600px;
+    left:140px;
     width:500px;
-    height:100px;
+    height:120px;
     z-index:3;
-    background-color: black
+    background-color:black;
     
 }
 
-.earth {
-    position: absolute;
-    left:500px;
-    top:300px;
-}
 
 p {
     top:3000px;
@@ -78,70 +73,70 @@ p {
     font-family: helvetica, arial, sans-serif;
     font-weight:bold;
 }
-.rock {
-    width:20px;
-    height:20px;
+
+.mono {
+    width:12px;
+    height:30px;
     position:absolute;
-    border-radius:400px;
-    background-color:grey;
-    left:580px;
+    background-color:black;
+    left:5000px;
     top: 370px;
     transform: translateX(8000px);
-    z-index:200;
+    z-index:100;
 
-    -webkit-animation: myOrbit 10s linear infinite; /* Chrome, Safari 5 */
-       -moz-animation: myOrbit 10s linear infinite; /* Firefox 5-15 */
-         -o-animation: myOrbit 10s linear infinite; /* Opera 12+ */
-            animation: myOrbit 8s linear infinite; /* Chrome, Firefox 16+, 
+    -webkit-animation: orbit 10s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: orbit 10s linear infinite; /* Firefox 5-15 */
+         -o-animation: orbit 10s linear infinite; /* Opera 12+ */
+            animation: orbit 20s linear infinite; /* Chrome, Firefox 16+, 
                                                       IE 10+, Safari 5 */
 
 }
 
 
-@-webkit-keyframes myOrbit {
+@-webkit-keyframes orbit {
     from { -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
-    to   { -webkit-transform: rotate(350deg) translateX(150px) rotate(-360deg); }
+    to   { -webkit-transform: rotate(340deg) translateX(150px) rotate(-360deg); }
 }
 
-@-moz-keyframes myOrbit {
+@-moz-keyframes orbit {
     from { -moz-transform: rotate(0deg) translateX(150px) rotate(0deg); }
     to   { -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
 }
 
-@-o-keyframes myOrbit {
+@-o-keyframes orbit {
     from { -o-transform: rotate(0deg) translateX(150px) rotate(0deg); }
     to   { -o-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
 }
 
-@keyframes myOrbit {
+@keyframes orbit {
     from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
-    to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+    to   { transform: rotate(-360deg) translateX(150px) rotate(-360deg); }
 }
-
 
 .pod {
     top:240px;
-    left:5460px;
+    left:500px;
     position:absolute;
     z-index:2;
     -webkit-animation-name: pod; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 46s; /* Chrome, Safari, Opera */
     animation-name: pod;
-    animation-duration: 60s;
+    animation-duration: 15s;
 }
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes pod {
-    from {left:5700px;top:220px;
+    from {left:650px;top:240px;
     }
-    to {left:5460px;top:240px;}
+    to {left:500px;top:240px;}
 }
 
 /* Standard syntax */
 @keyframes pod {
-    from {left:5700px;top:220px;}
-    to {left:5460px;top:240px;}
+    from {left:650px;top:240px;}
+    to {left:500px;top:240px;}
 }
+
 
 .mono {
     width:12px;

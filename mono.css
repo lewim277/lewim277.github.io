@@ -24,7 +24,6 @@ body {
     width:400px;
     height:400px;
     position:fixed; 
-    top:20%;
     left:50%;
     margin-left: -200px;
     border-radius:400px;
@@ -32,18 +31,18 @@ body {
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
     animation-name: example;
-    animation-duration: 20s;
+    animation-duration: 210s;
 }
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes example {
-    from {top:5%;}
-    to {top:20%;}
+    from {top:1%;}
+    to {top:38%;}
 }
 
 /* Standard syntax */
 @keyframes example {
-    from {top:5%;}
-    to {top:20%;}
+    from {top:1%;}
+    to {top:38%;}
 }
 

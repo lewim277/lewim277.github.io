@@ -60,7 +60,13 @@ $(".lever1").click(function() {
 });
 
 $(".lever10").click(function() {
-    console.log("off1");
+    console.log("off2");
     $(".lever10").hide();
     $(".leve9").show();
 });
+
+$(".lever9").click(function() {
+    console.log("off1");
+    window.location.href="art2.html";
+});
+
