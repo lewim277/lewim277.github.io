@@ -26,7 +26,7 @@ h1 {
 
 .jupitar {
     position: absolute;
-    left:9000px;
+    left:8000px;
 }
 
 .ship{
@@ -40,13 +40,13 @@ h1 {
 @-webkit-keyframes example {
     from {left:100px;top:200px;
     }
-    to {left:8500px;top:200px;}
+    to {left:7700px;top:200px;}
 }
 
 /* Standard syntax */
 @keyframes example {
     from {left:100px;top:200px;}
-    to {left:8500px;top:200px;}
+    to {left:7700px;top:200px;}
 }
 
 .pod {
