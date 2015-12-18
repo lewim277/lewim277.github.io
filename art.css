@@ -30,24 +30,27 @@ h1 {
 }
 
 .ship{
+    left:7500px;
+    top:200px;
     position:absolute; 
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 60s; /* Chrome, Safari, Opera */
     animation-name: example;
-    animation-duration: 60s;
+    animation-duration: 40s;
 }
 /* Chrome, Safari, Opera */
 @-webkit-keyframes example {
     from {left:100px;top:200px;
     }
-    to {left:7700px;top:200px;}
+    to {left:7600px;top:200px;}
 }
 
 /* Standard syntax */
 @keyframes example {
     from {left:100px;top:200px;}
-    to {left:7700px;top:200px;}
+    to {left:7600px;top:200px;}
 }
+
 
 .pod {
     position: absolute;
