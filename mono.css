@@ -6,6 +6,7 @@ body {
     background: -webkit-radial-gradient(yellow,red,red,red,red,black,black,black,black); /* Safari 5.1 to 6.0 */
     background: -moz-radial-gradient(yellow,red,red,red,red,black,black,black,black); /* For Firefox 3.6 to 15 */
     background: radial-gradient(#FDC330,red,#9A4BFB); /* Standard syntax */
+    cursor: 'Pod.png', auto;
 }
 .mono {
 	border-bottom: 450px solid black;
@@ -20,6 +21,9 @@ body {
 	
 	
 }
+mono:hover {
+    cursor: url('ship.png'), auto;
+}
 .moon {
     width:400px;
     height:400px;
@@ -31,7 +35,7 @@ body {
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
     animation-name: example;
-    animation-duration: 210s;
+    animation-duration: 270s;
 }
 
 /* Chrome, Safari, Opera */
@@ -46,3 +50,6 @@ body {
     to {top:38%;}
 }
 
+.custom {
+   cursor: "ship.png" auto;
+}
