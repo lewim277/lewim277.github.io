@@ -29,6 +29,17 @@ h1 {
     left:5000px;
 }
 
+.europa {
+    position: absolute;
+    left:4400px;
+    top:700px;
+}
+.europa2 {
+    position: absolute;
+    left:3090px;
+    top:280px;
+}
+
 .ship{
     left:4600px;
     top:200px;
