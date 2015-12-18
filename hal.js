@@ -70,3 +70,7 @@ $(".lever9").click(function() {
     window.location.href="art2.html";
 });
 
+setTimeout(function(){ 
+     var audio = new Audio('hal.mp3');
+        audio.play();
+     }, 10);

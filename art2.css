@@ -36,7 +36,7 @@ h1 {
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 60s; /* Chrome, Safari, Opera */
     animation-name: theme;
-    animation-duration: 50s;
+    animation-duration: 140s;
     z-index:150;
 }
 
@@ -56,7 +56,7 @@ h1 {
 .gradient { 
     position:absolute;
     top:210px;
-    left:140px;
+    left:100px;
     width:500px;
     height:120px;
     z-index:3;
@@ -81,17 +81,16 @@ p {
     background-color:black;
     left:5000px;
     top: 370px;
-    transform: translateX(8000px);
+    transform: translateX(5000px);
     z-index:100;
 
     -webkit-animation: orbit 10s linear infinite; /* Chrome, Safari 5 */
        -moz-animation: orbit 10s linear infinite; /* Firefox 5-15 */
          -o-animation: orbit 10s linear infinite; /* Opera 12+ */
-            animation: orbit 20s linear infinite; /* Chrome, Firefox 16+, 
+            animation: orbit 40s linear infinite; /* Chrome, Firefox 16+, 
                                                       IE 10+, Safari 5 */
 
 }
-
 
 @-webkit-keyframes orbit {
     from { -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
@@ -138,41 +137,3 @@ p {
 }
 
 
-.mono {
-    width:12px;
-    height:30px;
-    position:absolute;
-    background-color:black;
-    left:8000px;
-    top: 370px;
-    transform: translateX(8000px);
-    z-index:200;
-
-    -webkit-animation: orbit 10s linear infinite; /* Chrome, Safari 5 */
-       -moz-animation: orbit 10s linear infinite; /* Firefox 5-15 */
-         -o-animation: orbit 10s linear infinite; /* Opera 12+ */
-            animation: orbit 20s linear infinite; /* Chrome, Firefox 16+, 
-                                                      IE 10+, Safari 5 */
-
-}
-
-
-@-webkit-keyframes orbit {
-    from { -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
-    to   { -webkit-transform: rotate(340deg) translateX(150px) rotate(-360deg); }
-}
-
-@-moz-keyframes orbit {
-    from { -moz-transform: rotate(0deg) translateX(150px) rotate(0deg); }
-    to   { -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
-}
-
-@-o-keyframes orbit {
-    from { -o-transform: rotate(0deg) translateX(150px) rotate(0deg); }
-    to   { -o-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
-}
-
-@keyframes orbit {
-    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
-    to   { transform: rotate(-360deg) translateX(150px) rotate(-360deg); }
-}

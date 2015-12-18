@@ -1,7 +1,7 @@
 setTimeout(function(){ 
      var audio = new Audio('theme.mp3');
         audio.play();
-     }, 10);
+     }, 1);
 setTimeout(function(){ 
      window.location.href="trip.html";
-     }, 107000);     
+     }, 108000);     
