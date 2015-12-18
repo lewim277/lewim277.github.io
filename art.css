@@ -24,298 +24,48 @@ h1 {
     color: black;
 }
 
-.box {
-    width:400px;
-    height:400px;
-    position:absolute;
-    top:200px;
-    left:60px;
-    border-radius:400px;
-    background-color:#ABAAAA;
-}
-.circle {
-    width:380px;
-    height:400px;
-    position:absolute;
-    top:200px;
-    left:90px;
-    border-radius:400px;
-    background-color:#CCCACA;
-}
-.circle2 {
-    width:58px;
-    height:54px;
-    position:absolute;
-    top:280px;
-    left:180px;
-    border-radius:400px;
-    background-color:#6B6B6B;
-}
-.circle3 {
-    width:47px;
-    height:50px;
-    position:absolute;
-    top:282px;
-    left:182px;
-    border-radius:400px;
-    background-color:#8F8F8F;
-}
-.circle4 {
-    width:76px;
-    height:71px;
-    position:absolute;
-    top:378px;
-    left:378px;
-    border-radius:400px;
-    background-color:#6B6B6B;
-}
-.circle5 {
-    width:69px;
-    height:69px;
-    position:absolute;
-    top:380px;
-    left:378px;
-    border-radius:400px;
-    background-color:#8F8F8F;
-}
-.circle6 {
-    width:35px;
-    height:31px;
-    position:absolute;
-    top:480px;
-    left:100px;
-    border-radius:400px;
-    background-color:#6B6B6B;
-}
-.circle7 {
-    width:30px;
-    height:30px;
-    position:absolute;
-    top:480px;
-    left:100px;
-    border-radius:400px;
-    background-color:#8F8F8F;
-}
-.circle8 {
-    width:23px;
-    height:22px;
-    position:absolute;
-    top:530px;
-    left:240px;
-    border-radius:400px;
-    background-color:#6B6B6B;
-}
-.circle9 {
-    width:20px;
-    height:20px;
-    position:absolute;
-    top:530px;
-    left:239px;
-    border-radius:400px;
-    background-color:#8F8F8F;
-}
-.circle10 {
-    width:23px;
-    height:22px;
-    position:absolute;
-    top:450px;
-    left:285px;
-    border-radius:400px;
-    background-color:#6B6B6B;
-}
-.circle12 {
-    width:20px;
-    height:20px;
-    position:absolute;
-    top:450px;
-    left:283px;
-    border-radius:400px;
-    background-color:#8F8F8F;
-}
-.circle13 {
-    width:18px;
-    height:17px;
-    position:absolute;
-    top:378px;
-    left:190px;
-    border-radius:400px;
-    background-color:#6B6B6B;
-}
-.circle14 {
-    width:15px;
-    height:15px;
-    position:absolute;
-    top:378px;
-    left:188px;
-    border-radius:400px;
-    background-color:#8F8F8F;
-}
-.circle15 {
-    width:34px;
-    height:32px;
-    position:absolute;
-    top:290px;
-    left:400px;
-    border-radius:400px;
-    background-color:#6B6B6B;
-}
-.circle16 {
-    width:31px;
-    height:31px;
-    position:absolute;
-    top:290px;
-    left:398px;
-    border-radius:400px;
-    background-color:#8F8F8F;
-}
-.set1 {
-    width:31px;
-    height:20px;
-    position:fixed;
-    top:290px;
-    left:540px;
-    border-radius:0px;
-    background-color:#2F2F2E;
+.jupitar {
+    position: absolute;
+    left:9000px;
 }
 
-
-.set2 {
-        width:0;
-	height:0;
-	position:fixed;
-	top:180px;
-	left:542px;
-	border-left:20px;
-	border-right:20px solid transparent;
-	border-bottom:100px solid white;
-	background-color:#ABAAAA;
-	transform:rotate(180deg);
+.ship{
+    position:absolute; 
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 60s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 60s;
 }
-.set3 {
-        width:0;
-	height:0;
-	position:fixed;
-	top:320px;
-	left:540px;
-	border-left:20px ;
-	border-right:20px solid transparent;
-	border-bottom:100px solid white;
-	background-color:#ABAAAA;
-	transform:rotate(0deg);
-}
-.ant4 {
-    width:3px;
-    height:28px;
-    position:fixed;
-    top:308px;
-    left:550px;
-    border-radius:0px;
-    background-color:#ABAAAA;
-}
-.ant5 {
-    width:3px;
-    height:28px;
-    position:fixed;
-    top:270px;
-    left:550px;
-    border-radius:0px;
-    background-color:#ABAAAA;
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    from {left:100px;top:200px;
+    }
+    to {left:8500px;top:200px;}
 }
 
-.set1, .set2, .set3, .ant4, .ant5:hover {
+/* Standard syntax */
+@keyframes example {
+    from {left:100px;top:200px;}
+    to {left:8500px;top:200px;}
+}
+
+.pod {
+    position: absolute;
+    left: 1400px;
+}
+
+.pod:hover {
+    position:absolute;
+    left: 200px;
 }
 .earth {
-    width:90px;
-    height:90px;
-    position:absolute;
-    top:100px;
-    left:700px;
-    border-radius:400px;
-    background-color:#6AB8EF;
-}
-.earth1 {
-    width:53px;
-    height:40px;
-    position:absolute;
-    top:104px;
-    left:720px;
-    border-radius:60px;
-    background-color:#549A68;
-}
-.earth2 {
-    width:50px;
-    height:20px;
-    position:absolute;
-    top:123px;
-    left:710px;
-    border-radius:10px;
-    background-color:#549A68;
-}
-.earth3 {
-    width:16px;
-    height:40px;
-    position:absolute;
-    top:123px;
-    left:729px;
-    border-radius:10px;
-    background-color:#549A68;
-}
-.earth4 {
-    width:30px;
-    height:30px;
-    position:absolute;
-    top:150px;
-    left:729px;
-    border-radius:80px;
-    background-color:#549A68;
-}
-.earth5 {
-    width:16px;
-    height:38px;
-    position:absolute;
-    top:150px;
-    left:729px;
-    border-radius:10px;
-    background-color:#549A68;
-}
-.florida {
-    width:5px;
-    height:10px;
-    position:absolute;
-    top:140px;
-    left:760px;
-    border-radius:10px;
-    background-color:#549A68;
-}
-.circle11 {
-    width:5px;
-    height:10px;
-    position:absolute;
-    top:1500px;
-    left:760px;
-    border-radius:10px;
-    background-color:#549A68;
-}
-.gradient {
-    width:5000px;
-    height:3000px;
-    position:absolute;
-    top:40px;
-    left:0px;
-    border-radius:0px;
-background-image: -webkit-gradient(
-	linear,
-	left top,
-	left bottom,
-	color-stop(0, #000000),
-	color-stop(1, #F7B654)
-);
-background-image: -webkit-linear-gradient(bottom, #000000 0%, #F7B654 100%);
-background-image: linear-gradient(to bottom, #000000 0%, #FFF 100%);
+    position: absolute;
+    left:500px;
+    top:300px;
 }
 
 p {
-    top:2000px;
+    top:3000px;
     position: relative;
     color:white;
     font-size: 150px;
@@ -328,17 +78,16 @@ p {
     position:absolute;
     border-radius:400px;
     background-color:grey;
-    left: 800px;
-    top: 143px;
+    left:580px;
+    top: 370px;
+    transform: translateX(8000px);
 
     -webkit-animation: myOrbit 10s linear infinite; /* Chrome, Safari 5 */
        -moz-animation: myOrbit 10s linear infinite; /* Firefox 5-15 */
-         -o-animation: myOrbit 20s linear infinite; /* Opera 12+ */
+         -o-animation: myOrbit 10s linear infinite; /* Opera 12+ */
             animation: myOrbit 8s linear infinite; /* Chrome, Firefox 16+, 
                                                       IE 10+, Safari 5 */
-    
-    
-    
+
 }
 
 
