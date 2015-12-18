@@ -30,7 +30,7 @@ h1 {
 }
 
 .ship{
-    left:7500px;
+    left:5000px;
     top:200px;
     position:absolute; 
     -webkit-animation-name: example; /* Chrome, Safari, Opera */
@@ -42,19 +42,23 @@ h1 {
 @-webkit-keyframes example {
     from {left:100px;top:200px;
     }
-    to {left:7600px;top:200px;}
+    to {left:5000px;top:200px;}
 }
 
 /* Standard syntax */
 @keyframes example {
     from {left:100px;top:200px;}
-    to {left:7600px;top:200px;}
+    to {left:5000px;top:200px;}
+}
+
+    
 }
 
 
 .pod {
     position: absolute;
-    left: 1400px;
+    top: 240px;
+    left: 5430px;
 }
 
 .pod:hover {
