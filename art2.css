@@ -87,7 +87,7 @@ p {
     -webkit-animation: orbit 10s linear infinite; /* Chrome, Safari 5 */
        -moz-animation: orbit 10s linear infinite; /* Firefox 5-15 */
          -o-animation: orbit 10s linear infinite; /* Opera 12+ */
-            animation: orbit 40s linear infinite; /* Chrome, Firefox 16+, 
+            animation: orbit 30s linear infinite; /* Chrome, Firefox 16+, 
                                                       IE 10+, Safari 5 */
 
 }
