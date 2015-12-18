@@ -3,5 +3,5 @@ setTimeout(function(){
         audio.play();
      }, 5);
 setTimeout(function(){ 
-      window.location.href="art.html";
+      window.location.href="trip.html";
      }, 226000);
